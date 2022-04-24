@@ -27,9 +27,12 @@ public class UnitTest1
     [Theory]
     [InlineData(1, 2, 3)]
     [InlineData(3, 2, 5)]
+    [InlineData(6, 7, 13)]
     [InlineData(100, 200, 300)]
 
     // [fact]
+    // 使用 dotnet watch test保存后会自动进行单元测试
+    // 单元测试并行 -parallel（一般不需要）
 
     public void Test2(int a, int b, int e)
     {
