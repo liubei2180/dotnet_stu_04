@@ -51,18 +51,23 @@ public class UnitTest1
     // }
 
 
-    [Fact]
-    public void Test3()
+    [Theory]
+    [InlineData(1, 2,"Result:3")]
+    [InlineData(2, 2,"Result:4")]
+    [InlineData(10, 20,"Result:30")]
+    // 单元测试的原则：a测试不能影响b测试
+
+    public void Test3(int a, int b, string c)
     {
         // given
         var c1 = new Class1Mock1Plus2();
         var c2 = new Class2(c1);
 
         // when
-        var result = c2.XX(1, 2);
+        var result = c2.XX(a, b);
 
         // then
-        result.ShouldBe("Result:3");
+        result.ShouldBe(c);
 
     }
 
@@ -74,7 +79,7 @@ public class UnitTest1
                 return 3;
 
             if (a == 2 && b == 2)
-                return 3;
+                return 4;
 
             if (a == 10 && b == 20)
                 return 30;

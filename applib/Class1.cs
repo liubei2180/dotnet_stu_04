@@ -26,6 +26,6 @@ public class Class2
 
     public string XX(int a, int b)
     {
-        return "Result:" + _math.Add(1, 2);
+        return "Result:" + _math.Add(a, b);
     }
 }
