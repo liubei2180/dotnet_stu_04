@@ -28,4 +28,23 @@ public class Class2
     {
         return "Result:" + _math.Add(a, b);
     }
+
+     public HHH YY()
+    {
+        // 很复杂的逻辑
+        return new HHH { 
+            Name = "mz",
+            Id = 12345,
+            IsOk = false,
+        };
+    }
+}
+
+public class HHH
+{
+    public string Name { get; set; }
+
+    public int Id { get; set; }
+
+    public bool IsOk { get; set; }
 }
