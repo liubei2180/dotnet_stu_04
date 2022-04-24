@@ -1,0 +1,12 @@
+/Users/xiaojin/Demo/dotnet_stu_04/applib/bin/Debug/net6.0/applib.deps.json
+/Users/xiaojin/Demo/dotnet_stu_04/applib/bin/Debug/net6.0/applib.dll
+/Users/xiaojin/Demo/dotnet_stu_04/applib/bin/Debug/net6.0/applib.pdb
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.csproj.AssemblyReference.cache
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.AssemblyInfoInputs.cache
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.AssemblyInfo.cs
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.csproj.CoreCompileInputs.cache
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.dll
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/refint/applib.dll
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/applib.pdb
+/Users/xiaojin/Demo/dotnet_stu_04/applib/obj/Debug/net6.0/ref/applib.dll
